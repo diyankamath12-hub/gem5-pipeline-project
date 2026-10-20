@@ -1,0 +1,28 @@
+O3PipeView:fetch:9951500:0x00400184:0:29842:addiu      r5, r3, 4
+O3PipeView:decode:9966000
+O3PipeView:rename:9966500
+O3PipeView:dispatch:9967500
+O3PipeView:issue:9997000
+O3PipeView:complete:9997500
+O3PipeView:retire:9998500:store:0
+O3PipeView:fetch:9951500:0x00400188:0:29843:addu       r2, r3, r5
+O3PipeView:decode:9966000
+O3PipeView:rename:9966500
+O3PipeView:dispatch:9967500
+O3PipeView:issue:9997500
+O3PipeView:complete:9998000
+O3PipeView:retire:9999000:store:0
+O3PipeView:fetch:9992500:0x004001bc:0:48074:nop        
+O3PipeView:decode:9993000
+O3PipeView:rename:9993500
+O3PipeView:dispatch:9994500
+O3PipeView:issue:0
+O3PipeView:complete:0
+O3PipeView:retire:0:store:0
+system.cpu.dcache.blockedCycles::no_targets           45                       # number of cycles access was blocked (Cycle)
+system.cpu.dcache.blockedCauses::no_targets            1                       # number of times access was blocked (Count)
+system.cpu.dcache.avgBlocked::no_targets           45                       # average number of cycles each access was blocked ((Cycle/Count))
+system.cpu.icache.blockedCycles::no_targets            0                       # number of cycles access was blocked (Cycle)
+system.cpu.icache.blockedCauses::no_targets            0                       # number of times access was blocked (Count)
+system.cpu.icache.avgBlocked::no_targets          nan                       # average number of cycles each access was blocked ((Cycle/Count))
+system.cpu.iew.lsqFullEvents                      722                       # Number of times the LSQ has become full, causing a stall (Count)
