@@ -1,0 +1,20 @@
+warn: The se.py script is deprecated. It will be removed in future releases of  gem5.
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/arch/mips/linux/se_workload.cc:70: warn: Unknown operating system; assuming Linux.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:32] into equal-sized buckets. Rounding up.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:8] into equal-sized buckets. Rounding up.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.1
+gem5 compiled Oct 19 2026 14:52:34
+gem5 started Nov  1 2026 13:01:27
+gem5 executing on codespaces-98ebd4, pid 28573
+command line: build/MIPS/gem5.opt -d /workspaces/gem5-pipeline-project/gem5_project_kit/results/o3_factorial configs/deprecated/example/se.py --cpu-type=MipsO3CPU --caches -c /workspaces/gem5-pipeline-project/gem5_project_kit/bin/factorial
+
+**** REAL SIMULATION ****
+Exiting @ tick 1050388500 because exiting with last active thread context
