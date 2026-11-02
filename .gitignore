@@ -1,0 +1,3 @@
+programs/m5out/
+programs/*.mips
+results/factorial/
