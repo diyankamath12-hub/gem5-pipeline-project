@@ -1,3 +1,6 @@
 programs/m5out/
 programs/*.mips
 results/factorial/
+programs/m5out/
+programs/*.mips
+results/factorial/
